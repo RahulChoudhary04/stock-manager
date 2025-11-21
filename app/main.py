@@ -12,11 +12,15 @@ def create_app() -> FastAPI:
 
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=["*"],
+        allow_origins=[
+            "https://stock-manager-ebon.vercel.app",
+            "http://localhost:5173"
+        ],
         allow_credentials=True,
-        allow_methods=["*"] ,
+        allow_methods=["*"],
         allow_headers=["*"],
     )
+
 
     Base.metadata.create_all(bind=engine)
     ensure_schema_upgrades()
