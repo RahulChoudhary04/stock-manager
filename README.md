@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SweetStock Platform
 
 Warehouse-grade inventory + sales console for Indian sweets wholesalers (Motichur Laddoo, Rasgulla, Bikaji assortments). A FastAPI backend powers the data APIs, while a React/Vite frontend offers a multi-page operator experience that stays FIFO-aware, expiry-conscious, and accountant-friendly.
@@ -136,3 +137,6 @@ Environment overrides (via `.env` or OS vars):
 2. Add JWT auth & role-based access.
 3. Stream events (Kafka/PubSub) for BigQuery-scale analytics.
 4. Build mobile/web clients using the documented REST APIs.
+=======
+# stock-manager
+>>>>>>> 4c1c50f27a52e4ddc241d4e1f0071489f00f2693
